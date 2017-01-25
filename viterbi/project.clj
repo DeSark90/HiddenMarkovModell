@@ -7,4 +7,5 @@
 
                     :profiles
                 {:dev {:source-paths ["dev" "src" "test"]
-                :dependencies [[org.clojure/tools.namespace "0.2.11"]]}})
+                :dependencies [[org.clojure/tools.namespace "0.2.11"]
+                [org.clojure/data.priority-map "0.0.7"]]}})
