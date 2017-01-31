@@ -30,3 +30,9 @@
        ["a" "b" 0], 2) ["werden" "KopV" 0.3]))
     )
    )
+
+  ;(viterPos emission bigram []) = [["wort1" "POS" num1] ["wort2" "POS2" num2]]
+   (deftest viterTest
+     testing "viterbi-algorithm test"
+    (is (= (viterPos emission bigram [])  ))
+    )
